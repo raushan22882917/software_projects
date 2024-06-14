@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Matcher</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Upload Your Resume and Job Description</h1>
+    <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data">
+        <label for="resume">Upload Resume:</label>
+        <input type="file" name="resume" id="resume" required>
+        <br><br>
+        <label for="job_description">Upload Job Description:</label>
+        <input type="file" name="job_description" id="job_description" required>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
