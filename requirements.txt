@@ -20,6 +20,7 @@ Faker==19.1.0
 favicon==0.7.0
 floret==0.10.3
 fonttools==4.43.0
+flask
 gitdb==4.0.10
 GitPython==3.1.41
 gunicorn
