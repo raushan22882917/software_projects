@@ -10,3 +10,4 @@ blinker
 Jinja2
 Werkzeug
 spacy
+en-core-web-md
